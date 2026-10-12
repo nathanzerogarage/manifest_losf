@@ -1,5 +1,7 @@
-LineageOS (another personal custom fork)
+LineageOS (yet another personal custom fork)
 ===========
+
+Base Fork: @alternoegraha
 
 Getting started
 ---------------
