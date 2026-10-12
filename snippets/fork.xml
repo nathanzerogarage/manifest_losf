@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="build/make" name="cringe-stuff-at-2am/lineage_build" groups="pdk,sysui-studio" remote="fork">
+    <project path="build/make" name="nathanzerogarage/android_build_losf" groups="pdk,sysui-studio" remote="fork">
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
         <linkfile src="core" dest="build/core" />
@@ -16,7 +16,7 @@
     <project path="frameworks/base" name="nathanzerogarage/android_frameworks_base_losf" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="fork" />
     <project path="frameworks/native" name="cringe-stuff-at-2am/lineage_frameworks_native" groups="pdk" remote="fork" />
     <project path="frameworks/opt/telephony" name="cringe-stuff-at-2am/android_frameworks_opt_telephony" groups="pdk,sysui-studio" remote="fork" />
-    <project path="packages/apps/Launcher3" name="cringe-stuff-at-2am/lineage_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="fork" />
+    <project path="packages/apps/Launcher3" name="nathanzerogarage/android_packages_apps_Trebuchet_losf" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="fork" />
     <project path="packages/apps/Settings" name="cringe-stuff-at-2am/lineage_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="fork" />
     <project path="packages/apps/ThemePicker" name="cringe-stuff-at-2am/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="fork" />
     <project path="packages/apps/WallpaperPicker2" name="cringe-stuff-at-2am/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="fork" />
@@ -28,8 +28,8 @@
     <project path="system/sepolicy" name="cringe-stuff-at-2am/lineage_system_sepolicy" groups="pdk" remote="fork" />
     <project path="vendor/lineage" name="nathanzerogarage/android_vendor_lineage_losf" remote="fork" />
 
-    <project path="packages/apps/Freeform" name="halcyonproject/packages_apps_Freeform" remote="fork" revision="17.0" />
+    <project path="packages/apps/LMOFreeform" name="nathanzerogarage/packages_apps_LMOFreeform" remote="fork" revision="lineage-24.0" />
 
     <remove-project path="external/wpa_supplicant_8" />
-    <project path="external/wpa_supplicant_8" name="nathanzerogarage/external_wpa_supplicant_8" remote="fork" revision="cnb" />
+    <project path="external/wpa_supplicant_8" name="nathanzerogarage/external_wpa_supplicant_8" remote="fork" revision="lineage-24.0" />
 </manifest>
